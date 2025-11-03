@@ -10,7 +10,10 @@ nav a {
 }
 
 h1 {
-    color: darkblue;
+    color: #0e421c;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid #0e421c;
 }
 
 img {
