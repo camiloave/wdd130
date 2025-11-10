@@ -1,5 +1,13 @@
+:root {
+    --heading-background-color: darkblue;
+    --heading-text-color: #0e421c;
+
+
+
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--heading-background-color); 
     padding: 10px;
 }
 
@@ -13,7 +21,7 @@ main {
     max-width: 840px;
 }
 h1 {
-    color: #0e421c;
+    color: var(--heading-text-color);
     margin: 10px;
     padding: 5px;
     border: 1px solid #0e421c;
