@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Info</title>
+    <meta name="description" content="This is the page with the contact info">
+    <meta name="author" content="Camilo Vergara">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/z-wwr-crossedoars.png" alt="Rafting Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="info">
+            <h3>WhiteWater Rafting Company</h3>
+            <p>Km 25, Camino a Ensenada</p>
+            <p>Puerto Varas, Chile</p>
+            <p>+569 12345678</p>
+            <p>info@whitewater.com</p>
+        </section>
+
+        <section class="contact">
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7222.0761030257645!2d-72.54501342448184!3d-41.2134391486383!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses-419!2scl!4v1764266027800!5m2!1ses-419!2scl"
+                    width="400" height="300" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="two_columns">
+                <div>
+                    <form class="form">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email" required>
+
+                        <div class="message_purpose">
+                            <label for="message">Message Purpose</label>
+                        </div>
+                        <div class="radio">
+                            <label><input type="radio" id="message" name="message">General Inquiry</label>
+                            <label><input type="radio" id="message" name="message">Reservation Question</label>
+                            <label><input type="radio" id="message" name="message">Website Suggestion</label>
+                        </div>
+
+                        <label for="Message">Message</label>
+                        <textarea id="Message" name="Message" rows="3" placeholder="Type Here"></textarea>
+
+                        <label class="checkbox">
+                            <input type="checkbox" id="newsletter" name="newsletter"><span class="newsletter">Please
+                                Subscribe
+                                me to
+                                the monthly newsletter</span>
+                        </label>
+
+
+                        <button type="submit">Get in Touch!</button>
+
+                    </form>
+        </section>
+
+        <section class="employee">
+            <h2>We Are Here To Serve You</h2>
+            <div class="employee_grid">
+                <figure>
+                    <img src="images/employee_1.jpeg" alt="Great River" width="125">
+                    <figcaption>Employee 1</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee_2.jpeg" alt="Calm River" width="125">
+                    <figcaption>Employee 2</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee_3.jpeg" alt="The boats" width="125">
+                    <figcaption>Employee 3</figcaption>
+                </figure>
+
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+    <!-- Esto queda igual -->
+    <footer>
+        <p>©2025 WhiteWater Rafting | Camilo Vergara</p>
+        <div class="socialmedia_flex">
+            <nav class="socialmedia">
+                <a href="https://facebook.com">
+                    <img src="images/facebook_logo.svg" alt="Facebook Icon" width="50">
+                </a>
+                <a href="https://instagram.com">
+                    <img src="images/instagram_logo.svg" alt="Instagram Icon" width="50">
+                </a>
+                <a href="https://linkedin.com">
+                    <img src="images/linkedin.svg" alt="Linkedin Icon" width="50">
+                </a>
+            </nav>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
