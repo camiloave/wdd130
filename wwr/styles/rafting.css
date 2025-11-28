@@ -22,7 +22,7 @@ header, main, .grid, footer {
     margin: 0 auto;
 }
 
-h1, h2 {
+.hero h1, h2 {
     font-family: var(--heading-font);
     color: var(--accent2-color);
 }
@@ -46,7 +46,7 @@ nav, p, section, article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -244,7 +244,4 @@ button {
     text-align: center;
 }
 
-footer p {
-    text-align: right;
-}
 
