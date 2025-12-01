@@ -151,14 +151,32 @@ header {
     text-align: center;
 }
 
-footer p {
-    text-align: right;
+footer {
+    background-color: #c5b7e8;
+    padding: 20px 0;
+
 }
 
 .socialmedia_flex {
-    background-color: #c5b7e8;
+    max-width: 840px;
+    margin: 0 auto;
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialmedia p {
+    margin: 0;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 15px;
+}
+
+.socialmedia img {
+    width: 40px;
+    height: auto;
 }
 
 
