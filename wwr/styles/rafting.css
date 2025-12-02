@@ -262,4 +262,132 @@ button {
     text-align: center;
 }
 
+/* Index Web Page Part */
 
+form {
+    margin: 10px;
+    padding: 10px;
+    background-color: var(--accent1-color);
+    color: var(--accent2-color);
+    text-align: center;
+}
+
+.form-group {
+    width: 350px;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 1px;
+    align-items: center;
+}
+
+.form-group input[type="text"],
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 2px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.but {
+    text-align: left;
+    margin-left: 98px;
+    padding: 5px;
+}
+
+.index_trip {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    font-size: medium;
+}
+
+.index_trip img {
+    border-radius: 15px;
+    box-shadow: 0 0 5px gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Trip Web Page Part */
+
+.box h2 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    background-color: var(--accent2-color);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+}
+
+.box a {
+    padding: 3px 5px;
+    background: #393838;
+    color: #fff;
+    border: 1px solid #888;
+    border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px;
+    gap: 500px;
+}
+
+.detailed_trip {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.detailed_trip img {
+    border-radius: 15px;
+    box-shadow: 0 0 7px gray;
+}
+
+table {
+  background-color: var(--accent2-color);
+  border-collapse: collapse;
+  border: 2px solid var(--accent1-color);
+  letter-spacing: 1px;
+  margin: 10px;
+}            
+
+th, td {
+  border: 1px solid var(--accent1-color);
+  padding: 8px 12px;
+  text-align: center;
+}
+
+thead tr {
+  background-color: rgb(0 0 0);
+  font-weight: 700;
+}
