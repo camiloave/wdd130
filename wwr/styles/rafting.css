@@ -312,22 +312,9 @@ form {
     box-shadow: 0 0 5px gray;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ul {
+    list-style-type: none;
+}
 
 
 /* Trip Web Page Part */
